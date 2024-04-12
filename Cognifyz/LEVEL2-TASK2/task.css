@@ -1,0 +1,31 @@
+*{
+    background-color:  rgb(231, 140, 171);
+}
+.green{
+    background-color: rgb(108, 119, 115);
+    height: 90px;
+    width: auto;
+    margin-left: 0;
+    padding-left: 30%;
+   padding: 20px;
+    
+}
+.blue{
+   
+    background-color: rgb(178, 217, 233);
+}
+.box{
+    background-color: rgb(231, 140, 171);
+    
+}
+@media  only screen and( max-width: 768px) {
+    .container{
+        width: 768px;
+    }
+}
+@media  only screen and( max-width: 480px) {
+    .container{
+        width: 100%;
+        padding: 0 10px;
+    }
+}
